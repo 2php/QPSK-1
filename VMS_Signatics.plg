@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\VMS_Signatics.uvproj
+Project File Date:  01/25/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling vms.c...
+linking...
+Program Size: Code=3148 RO-data=652 RW-data=1060 ZI-data=9540  
+".\VMS_Signatics.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling vms.c...
+linking...
+Program Size: Code=3148 RO-data=652 RW-data=1060 ZI-data=9540  
+".\VMS_Signatics.axf" - 0 Errors, 0 Warning(s).
