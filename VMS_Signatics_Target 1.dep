@@ -1,0 +1,41 @@
+Dependencies for Project 'VMS_Signatics', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x562B37F2)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\vms.c)(0x56CFF689)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PGE -DTM4C123GH6PGE-o .\vms.o --omf_browse .\vms.crf --depend .\vms.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E174)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7E174)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E174)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7E174)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\tm4c123gh6pge.h)(0x55DA9122)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\SysTick.h)(0x55DA9122)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\lcd.h)(0x55DA9122)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\uart.h)(0x55DA9122)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\gps.h)(0x55DA9122)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\fsk.h)(0x56CF9847)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\dac.h)(0x55DA9122)
+F (.\system_TM4C123.c)(0x55DA9122)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PGE -DTM4C123GH6PGE-o .\system_tm4c123.o --omf_browse .\system_tm4c123.crf --depend .\system_tm4c123.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E174)
+I (C:\Keil\ARM\Inc\TI\TM4C123\TM4C123.h)(0x51C7DB0E)
+I (C:\Keil\ARM\Inc\TI\TM4C123\TM4C123GH6PGE.h)(0x559912E7)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7DF7A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7DF7A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7DF7A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7DF7A)
+I (C:\Keil\ARM\Inc\TI\TM4C123\system_TM4C123.h)(0x51C7DB0E)
+F (.\lcd.c)(0x55DA9122)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PGE -DTM4C123GH6PGE-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E174)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\tm4c123gh6pge.h)(0x55DA9122)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\lcd.h)(0x55DA9122)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\SysTick.h)(0x55DA9122)
+F (.\SysTick.c)(0x55DA9122)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PGE -DTM4C123GH6PGE-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+F (.\uart.c)(0x55DA9122)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PGE -DTM4C123GH6PGE-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E174)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\tm4c123gh6pge.h)(0x55DA9122)
+F (.\gps.c)(0x55DA9122)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PGE -DTM4C123GH6PGE-o .\gps.o --omf_browse .\gps.crf --depend .\gps.d)
+F (.\fsk.c)(0x56CEBF41)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PGE -DTM4C123GH6PGE-o .\fsk.o --omf_browse .\fsk.crf --depend .\fsk.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E174)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\tm4c123gh6pge.h)(0x55DA9122)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\fsk.h)(0x56CF9847)
+F (.\dac.c)(0x56CB1981)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-Drvmdk -DPART_TM4C123GH6PGE -DTM4C123GH6PGE-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7E174)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\tm4c123gh6pge.h)(0x55DA9122)
+I (F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\inc\SysTick.h)(0x55DA9122)
