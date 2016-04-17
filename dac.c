@@ -2,7 +2,7 @@
 #include "inc/tm4c123gh6pge.h"
 #include "inc/SysTick.h"
 
-#define USR_LED				(*((volatile uint32_t *)0x40026010))
+
 
 uint32_t d;
 void dac_init(){

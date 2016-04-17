@@ -104,8 +104,8 @@
         <TargetDlgDllArguments>-pCM4</TargetDlgDllArguments>
       </DllOpt>
       <DebugOpt>
-        <uSim>1</uSim>
-        <uTrg>0</uTrg>
+        <uSim>0</uSim>
+        <uTrg>1</uTrg>
         <sLdApp>1</sLdApp>
         <sGomain>1</sGomain>
         <sRbreak>1</sRbreak>
@@ -114,7 +114,7 @@
         <sRfunc>1</sRfunc>
         <sRbox>1</sRbox>
         <tLdApp>1</tLdApp>
-        <tGomain>0</tGomain>
+        <tGomain>1</tGomain>
         <tRbreak>1</tRbreak>
         <tRwatch>1</tRwatch>
         <tRmem>1</tRmem>
@@ -123,12 +123,12 @@
         <tRtrace>1</tRtrace>
         <sRunDeb>0</sRunDeb>
         <sLrtime>0</sLrtime>
-        <nTsel>3</nTsel>
+        <nTsel>4</nTsel>
         <sDll></sDll>
         <sDllPa></sDllPa>
         <sDlgDll></sDlgDll>
         <sDlgPa></sDlgPa>
-        <sIfile>..\initialization.ini</sIfile>
+        <sIfile>.\initialization.ini</sIfile>
         <tDll></tDll>
         <tDllPa></tDllPa>
         <tDlgDll></tDlgDll>
@@ -137,6 +137,10 @@
         <pMon>BIN\lmidk-agdi.dll</pMon>
       </DebugOpt>
       <TargetDriverDllRegistry>
+        <SetRegEntry>
+          <Number>0</Number>
+          <Key>DLGUARM</Key>
+        </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
           <Key>ADC_SIZE</Key>
@@ -236,7 +240,7 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\dac.c</Filename>
+          <Filename>F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk\dac.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
@@ -302,6 +306,21 @@
           <WinNumber>1</WinNumber>
           <ItemText>x,0x0A</ItemText>
         </Ww>
+        <Ww>
+          <count>12</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>upSampled,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>13</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>UPSAMPLED,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>14</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>totalSymbols,0x0A</ItemText>
+        </Ww>
       </WatchWindow1>
       <MemoryWindow1>
         <Mm>
@@ -316,7 +335,7 @@
       <DebugFlag>
         <trace>0</trace>
         <periodic>1</periodic>
-        <aLwin>1</aLwin>
+        <aLwin>0</aLwin>
         <aCover>0</aCover>
         <aSer1>0</aSer1>
         <aSer2>0</aSer2>
@@ -345,7 +364,7 @@
         <Wi>
           <IntNumber>0</IntNumber>
           <FirstString>`d</FirstString>
-          <SecondString>0080000000000000000000000000000000C0AF400000000000000000000000000000000064000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004100000001000000000000000000F03F100000000000000000000000000000000000000084090000</SecondString>
+          <SecondString>0080000000000000000000000000000000C0AF400000000000000000000000000000000064000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000700000001000000000000000000F03F110000000000000000000000000000000000000084090000</SecondString>
         </Wi>
       </LogicAnalyzers>
       <SystemViewers>
@@ -405,10 +424,10 @@
       <FileType>1</FileType>
       <tvExp>1</tvExp>
       <Focus>1</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>11</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>108</TopLine>
-      <CurrentLine>112</CurrentLine>
+      <TopLine>40</TopLine>
+      <CurrentLine>47</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\vms.c</PathWithFileName>
       <FilenameWithoutPath>vms.c</FilenameWithoutPath>
@@ -421,10 +440,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>1</Focus>
-      <ColumnNumber>8066564</ColumnNumber>
+      <ColumnNumber>45</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>5</CurrentLine>
+      <TopLine>579</TopLine>
+      <CurrentLine>600</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\system_TM4C123.c</PathWithFileName>
       <FilenameWithoutPath>system_TM4C123.c</FilenameWithoutPath>
@@ -442,8 +461,8 @@
       <TopLine>0</TopLine>
       <CurrentLine>5</CurrentLine>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\lcd.c</PathWithFileName>
-      <FilenameWithoutPath>lcd.c</FilenameWithoutPath>
+      <PathWithFileName>.\SysTick.c</PathWithFileName>
+      <FilenameWithoutPath>SysTick.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -451,15 +470,15 @@
       <GroupNumber>1</GroupNumber>
       <FileNumber>5</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <Focus>1</Focus>
-      <ColumnNumber>8066564</ColumnNumber>
+      <ColumnNumber>27</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>5</CurrentLine>
+      <TopLine>27</TopLine>
+      <CurrentLine>33</CurrentLine>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\SysTick.c</PathWithFileName>
-      <FilenameWithoutPath>SysTick.c</FilenameWithoutPath>
+      <PathWithFileName>.\dac.c</PathWithFileName>
+      <FilenameWithoutPath>dac.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -468,62 +487,14 @@
       <FileNumber>6</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
-      <Focus>1</Focus>
-      <ColumnNumber>8066564</ColumnNumber>
+      <Focus>0</Focus>
+      <ColumnNumber>2</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>5</CurrentLine>
+      <TopLine>246</TopLine>
+      <CurrentLine>262</CurrentLine>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\uart.c</PathWithFileName>
-      <FilenameWithoutPath>uart.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>1</GroupNumber>
-      <FileNumber>7</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <Focus>1</Focus>
-      <ColumnNumber>8066564</ColumnNumber>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>5</CurrentLine>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\gps.c</PathWithFileName>
-      <FilenameWithoutPath>gps.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>1</GroupNumber>
-      <FileNumber>8</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>1</tvExp>
-      <Focus>1</Focus>
-      <ColumnNumber>40</ColumnNumber>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>3</TopLine>
-      <CurrentLine>14</CurrentLine>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\fsk.c</PathWithFileName>
-      <FilenameWithoutPath>fsk.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>1</GroupNumber>
-      <FileNumber>9</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>1</tvExp>
-      <Focus>1</Focus>
-      <ColumnNumber>0</ColumnNumber>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>24</TopLine>
-      <CurrentLine>55</CurrentLine>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\dac.c</PathWithFileName>
-      <FilenameWithoutPath>dac.c</FilenameWithoutPath>
+      <PathWithFileName>.\psk.c</PathWithFileName>
+      <FilenameWithoutPath>psk.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

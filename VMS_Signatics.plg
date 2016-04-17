@@ -3,17 +3,43 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk port J and N before testing\VMS_ProjectFiles_TM4C123GH6PGE\VMS_Signatics.uvproj
-Project File Date:  01/25/2016
+F:\ti\TivaWare_C_Series-2.0.1.11577\examples\boards\dk-tm4c123g\4psk\VMS_Signatics.uvproj
+Project File Date:  04/17/2016
 
 <h2>Output:</h2>
+Load "F:\\ti\\TivaWare_C_Series-2.0.1.11577\\examples\\boards\\dk-tm4c123g\\4psk\\VMS_Signatics.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Connection failed!, error code=&d
+Load "F:\\ti\\TivaWare_C_Series-2.0.1.11577\\examples\\boards\\dk-tm4c123g\\4psk\\VMS_Signatics.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Connection failed!, error code=&d
 Build target 'Target 1'
-compiling vms.c...
+compiling psk.c...
 linking...
-Program Size: Code=3148 RO-data=652 RW-data=1060 ZI-data=9540  
+Program Size: Code=4608 RO-data=652 RW-data=1448 ZI-data=32608  
 ".\VMS_Signatics.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling startup_TM4C123.s...
+compiling vms.c...
+compiling system_TM4C123.c...
+compiling SysTick.c...
+compiling dac.c...
+compiling psk.c...
+linking...
+Program Size: Code=4608 RO-data=652 RW-data=1448 ZI-data=32608  
+".\VMS_Signatics.axf" - 0 Errors, 0 Warning(s).
+Load "F:\\ti\\TivaWare_C_Series-2.0.1.11577\\examples\\boards\\dk-tm4c123g\\4psk\\VMS_Signatics.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
-compiling vms.c...
+compiling psk.c...
 linking...
-Program Size: Code=3148 RO-data=652 RW-data=1060 ZI-data=9540  
+Program Size: Code=4608 RO-data=652 RW-data=1448 ZI-data=16608  
 ".\VMS_Signatics.axf" - 0 Errors, 0 Warning(s).
+Load "F:\\ti\\TivaWare_C_Series-2.0.1.11577\\examples\\boards\\dk-tm4c123g\\4psk\\VMS_Signatics.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
