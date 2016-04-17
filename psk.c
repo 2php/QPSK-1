@@ -254,13 +254,16 @@ void stringToSymbols(char* str)
 		{
 			sym= bitFuser(str[i],index);
 			symbolLookUp(sym, symArray);
-			//symbolsReplicate( symArray);
-			//or
-			upSampling(symArray,upSampled);
+			
+			if (!isUpSampling)
+				symbolsReplicate( symArray);
+			else
+				upSampling(symArray,upSampled);
 			
 		}
 	}
-	SRRCFilter(upSampled);
+	if (isUpSampling)
+		SRRCFilter(upSampled);
 }
 
 int getNextSample()
@@ -274,7 +277,14 @@ int getNextSample()
 		xi=Symbols[currentSymbol][0] * (cosine(curIndex%SIN_SAMPLES));
 		xq=Symbols[currentSymbol][1] * (cosine((curIndex+SIN_SAMPLES/4)%SIN_SAMPLES));
 		xdac=( xi-xq+4096-1200)/1.414;
-  		currentSymbol++;
+		
+		if (isUpSampling)
+			
+			xdac=((xdac-2048)*2048/352)+ 2048;
+//		if (xdac<0)
+//			xdac=0;
+		
+  	currentSymbol++;
 		curIndex+=jumpSize;
  		isSampleAvail=true;
 	}

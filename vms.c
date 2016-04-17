@@ -14,10 +14,6 @@
 #include "inc/SysTick.h"
 #include "inc/psk.h"
 #include "inc/dac.h"
-#include "inc/lcd.h"
-#include "inc/uart.h"
-#include "inc/gps.h"
-
 
 //-------------------------
 // Preprocessor directives
@@ -36,7 +32,7 @@ char* stringAppend(char* dst,char* src);
 //------------------
 // Global Variables
 //------------------
-char msg[160]="hello\0";    ////////////////////////////////////////////
+char msg[160]="hello world\0";    ////////////////////////////////////////////
 volatile uint16_t dacout = 0;
 
 
@@ -45,23 +41,14 @@ volatile uint16_t dacout = 0;
 //---------------
 
 int main(){
-	msg[0]=0xFF;msg[1]=0xFF;msg[2]=0xFF;msg[3]=0xFF;msg[4]=0xFF;
+//	msg[0]=0xFF;msg[1]=0xFF;msg[2]=0xFF;msg[3]=0xFF;msg[4]=0xFF;
 
 	//------------------
 	//	Initializations
 	//------------------	
 //PLL_Init();
-	//Enable PortG GPIO PIN 0-7
-	SYSCTL_RCGC2_R |= 0x00000040;
-	GPIO_PORTG_AMSEL_R = 0x00;
-	GPIO_PORTG_PCTL_R = 0x00000000;
-	GPIO_PORTG_AFSEL_R = 0x00;
-	GPIO_PORTG_DEN_R |= 0xFF;
-	GPIO_PORTG_DIR_R |= 0xFF;
-	
-	
+	portG_init();
 	USR_LED=0xFF;
-	//portG_init();
 	SysTick_Init();
 	psk_init();	
 	dac_init();

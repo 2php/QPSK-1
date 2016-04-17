@@ -4,7 +4,7 @@
 
 
 
-uint32_t d;
+uint16_t d;
 void dac_init(){
 SYSCTL_RCGC2_R |= 0x00000100;			//PORTJ Clock
 	delay_ms(5);      

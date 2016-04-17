@@ -7,6 +7,3 @@
 .\vms.o: inc/SysTick.h
 .\vms.o: inc/psk.h
 .\vms.o: inc/dac.h
-.\vms.o: inc/lcd.h
-.\vms.o: inc/uart.h
-.\vms.o: inc/gps.h

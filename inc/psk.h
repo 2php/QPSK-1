@@ -17,6 +17,8 @@
 #define replicatingFactor 20
 #define jumpSize 					80
 #define upSampleFactor    8
+#define isUpSampling			true
+
 #define ELEMENT_COUNT(X) (sizeof(X) / sizeof((X)[0]))
 
 
